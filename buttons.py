@@ -29,8 +29,8 @@ def shutdownSystem():
 
 def restartVideo():
         print ("restarting video")
-        zero = int(0) #
-        os.system('/home/pi/simpsonstv/dbuscontrol.sh setposition $s' % (zero)) #
+        #zero = int(0) #
+        os.system('/home/pi/simpsonstv/dbuscontrol.sh setposition %s' % (0)) #
 
 
 buttonRight = True
